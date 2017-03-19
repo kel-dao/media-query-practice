@@ -1,0 +1,19 @@
+nav, footer, video, figcaption {
+  display: none
+}
+
+a[href^="http://"]:after, 
+a[href^="https://"]:after { 
+  content: " (" attr(href) ")";
+  font-size: 80%;
+} 
+
+/*selects Ahref tags that start with # sign (current page) ^= is "it starts with" */
+a[href^="#"]:after {
+content: "You're already here"; 
+}
+
+.container, article {
+  width: 100%;
+}
+
