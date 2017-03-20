@@ -111,3 +111,8 @@ footer form {
   margin-left: 2rem;
   display: inline;
 }
+
+p {
+  padding: 1em;
+  margin: 1em;
+}
